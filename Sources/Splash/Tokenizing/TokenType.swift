@@ -26,4 +26,14 @@ public enum TokenType: String, Equatable {
     case dotAccess
     /// A preprocessing symbol, such as `#if` or `@available`
     case preprocessing
+    /// An operator, such as `+`, `-` etc
+    case `operator`
+    /// A colon symbol
+    case colon
+    /// A semicolon symbol
+    case semicolon
+    /// An identifier, such as variable or function name
+    case identifier
+    /// An opening or closing bracket or paren such as `(` or `]`
+    case bracket
 }
